@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/PauloJMF/ts-node-skeleton#readme",
   "devDependencies": {
+    "@types/node": "^17.0.40",
     "typescript": "^4.7.3"
   }
 }
