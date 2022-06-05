@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/PauloJMF/ts-node-skeleton/issues"
   },
-  "homepage": "https://github.com/PauloJMF/ts-node-skeleton#readme"
+  "homepage": "https://github.com/PauloJMF/ts-node-skeleton#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
 }
