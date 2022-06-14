@@ -4,6 +4,9 @@
   "description": "Typescript node skeleton for backend API",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "tsc --project tsconfig.json",
+    "start": "node -r dotenv/config dist/src/index.js",
     "test": "node_modules/.bin/jest --detectOpenHandles --forceExit --runInBand"
   },
   "repository": {
